@@ -53,7 +53,7 @@ namespace SpringfieldNuclear
             reactor1StateLabel.BackColor = Color.Red;
             reactor2StateLabel.BackColor = Color.Red;
             outputLabel.Text = "Meltdown Imminent";
-            outputLabel.BackColor = Color.Red;
+            outputLabel.BackColor = Color.Blue;
 
             Refresh();
             Thread.Sleep(1000);
@@ -76,6 +76,7 @@ namespace SpringfieldNuclear
             reactor1StateLabel.BackColor = Color.White;
             reactor2StateLabel.BackColor = Color.White;
             outputLabel.BackColor = Color.White;
+
 
             Refresh();
             Thread.Sleep(1000);
